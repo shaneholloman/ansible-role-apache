@@ -10,8 +10,6 @@ name: Release
   push:
     tags:
       - '*'
-    branches:
-      - main
 
   # Adding manual trigger
   workflow_dispatch:
