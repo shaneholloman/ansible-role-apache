@@ -11,6 +11,9 @@ name: Release
     tags:
       - '*'
 
+  # Adding manual trigger
+  workflow_dispatch:
+
 defaults:
   run:
     working-directory: 'shaneholloman.apache'
