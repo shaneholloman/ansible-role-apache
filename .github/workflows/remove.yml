@@ -16,7 +16,7 @@ defaults:
 jobs:
 
   release:
-    name: Release
+    name: Remove
     runs-on: ubuntu-latest
     steps:
       - name: Check out the codebase.
