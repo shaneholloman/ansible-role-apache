@@ -10,8 +10,6 @@ name: Release
   push:
     tags:
       - '*'
-
-  # Adding manual trigger
   workflow_dispatch:
 
 defaults:
