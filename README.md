@@ -1,6 +1,6 @@
 # Ansible Role: Apache 2.x
 
-[![CI](https://github.com/shaneholloman-org/ansible-role-apache/actions/workflows/ci.yml/badge.svg)](https://github.com/shaneholloman-org/ansible-role-apache/actions/workflows/ci.yml)
+[![CI](https://github.com/shaneholloman/ansible-role-apache/actions/workflows/ci.yml/badge.svg)](https://github.com/shaneholloman/ansible-role-apache/actions/workflows/ci.yml) [![Release](https://github.com/shaneholloman/ansible-role-apache/actions/workflows/release.yml/badge.svg)](https://github.com/shaneholloman/ansible-role-apache/actions/workflows/release.yml)
 
 An Ansible Role that installs Apache 2.x on RHEL/CentOS, Debian/Ubuntu, SLES and Solaris.
 
@@ -158,5 +158,3 @@ MIT / BSD
 ## Author Information
 
 This role was created in 2023
-
-
