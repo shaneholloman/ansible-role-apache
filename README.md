@@ -77,7 +77,7 @@ Other SSL directives can be managed with other SSL-related role variables.
     apache_ssl_protocol: "All -SSLv2 -SSLv3"
     apache_ssl_cipher_suite: "AES256+EECDH:AES256+EDH"
 
-The SSL protocols and cipher suites that are used/allowed when clients make secure connections to your server. These are secure/sane defaults, but for maximum security, performand, and/or compatibility, you may need to adjust these settings.
+The SSL protocols and cipher suites that are used/allowed when clients make secure connections to your server. These are secure/sane defaults, but for maximum security, perform and, and/or compatibility, you may need to adjust these settings.
 
     apache_allow_override: "All"
     apache_options: "-Indexes +FollowSymLinks"
@@ -100,9 +100,9 @@ The list of packages to be installed. This defaults to a set of platform-specifi
 
 Set initial Apache daemon state to be enforced when this role is run. This should generally remain `started`, but you can set it to `stopped` if you need to fix the Apache config during a playbook run or otherwise would not like Apache started at the time this role is run.
 
-    apache_enabled: yes
+    apache_enabled: true
 
-Set the Apache service boot time status. This should generally remain `yes`, but you can set it to `no` if you need to run Ansible while leaving the service disabled.
+Set the Apache service boot time status. This should generally remain `true`, but you can set it to `false` if you need to run Ansible while leaving the service disabled.
 
     apache_packages_state: present
 
