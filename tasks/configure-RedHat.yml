@@ -50,5 +50,5 @@
       register: localhost_cert
 
     - name: Ensure httpd certs are installed (RHEL 8 and later).
-      ansible.builtin.command: /usr/libexec/httpd-ssl-gencerts
+      ansible.builtin.command: /usr/libexec/httpd-ssl-gencerts  # noqa no-changed-when
       when: not localhost_cert.stat.exists
