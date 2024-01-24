@@ -1,13 +1,12 @@
 ---
-dependencies: []
-
 galaxy_info:
   role_name: apache
   author: shaneholloman
   description: Apache 2.x for Linux.
   company: "shaneholloman"
-  license: "license (BSD, MIT)"
-  min_ansible_version: "2.10"
+  license: "license (Unlicense)"
+  min_ansible_version: "2.12"
+
   platforms:
     - name: Fedora
       versions:
@@ -26,6 +25,7 @@ galaxy_info:
     - name: Solaris
       versions:
         - "11.3"
+
   galaxy_tags:
     - web
     - apache
@@ -34,3 +34,6 @@ galaxy_info:
     - httpd
 
 allow_duplicates: true
+
+dependencies: []
+
